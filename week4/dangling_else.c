@@ -4,7 +4,7 @@ int main() {
     int x ; 
     
     printf("x:");
-    scanf("%d", &x);
+    scanf("%d", &x); // Kullanıcıdan bir sayı girmesini istiyoruz. ve girilecek sayiyi x degiskenine atiyoruz.
     
     if(x%2 == 0){   //  SÜSLÜ PARANTEZ BURADA AÇILIYOR
         if(x<100)   //eger 102 gibi bir sayi girilirse bu if'e girmeyecek ve ekrana hiçbir şey yazdırılmayacak return 0 ile program sonlanacak.
